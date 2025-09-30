@@ -53,7 +53,7 @@ function App() {
           <p>HP: {reshiramHP}/100</p>
         </div>
         <img
-          src="/public/reshiram.gif"
+          src="/assets/reshiram.gif"
           alt="Reshiram"
           className={`reshiram ${reshiramHP <= 0 ? "fainted" : ""}`}
         />
@@ -70,7 +70,7 @@ function App() {
       <div className="player">
         <img
           className={`gengar ${gengarHP <= 0 ? "fainted" : ""}`}
-          src="/public/gengar.gif"
+          src="/assets/gengar.gif"
           alt="Gengar"
         />
         <div className="pokemon-info">
